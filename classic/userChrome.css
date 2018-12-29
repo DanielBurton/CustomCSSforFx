@@ -11,7 +11,7 @@
 /*************************************************************************************************
 
  Full changelog of every version: https://github.com/Aris-t2/CustomCSSforFx/commits/
-  
+
  [!] Firefox 69+ requires this preference to be enabled or custom styles will not be loaded:
 	 'about:config > toolkit.legacyUserProfileCustomizations.stylesheets > true'
 
@@ -137,8 +137,8 @@
 /* @import "./css/buttons/button_padding_proton.css"; /**/
 
 /* navigation toolbar buttons appearance - [only use one at a time] *****************************/
-@import "./css/buttons/buttons_on_navbar_classic_appearance.css"; /**/
-/* @import "./css/buttons/buttons_on_navbar_classic_appearance_v2.css"; /**/
+/* @import "./css/buttons/buttons_on_navbar_classic_appearance.css"; /**/
+ @import "./css/buttons/buttons_on_navbar_classic_appearance_v2.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_windows_classic_theme_appearance.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_glass_appearance.css";			/* <--- good for Dark themes */
 /* @import "./css/buttons/buttons_on_navbar_osx_appearance.css"; /**/
@@ -292,8 +292,8 @@
 /* @import "./css/appbutton/appbutton_in_titlebar.css"; /**/ /* <-- label only */
 /* @import "./css/appbutton/appbutton_in_titlebar_icon_only.css"; /**/
 /* -- Fx 74+ (might already work on Fx 73) ******************************************************/
-@import "./css/appbutton/appbutton_in_titlebar_fx74.css"; /**/ /* <-- label only */
-/* @import "./css/appbutton/appbutton_in_titlebar_icon_only_fx74.css"; /**/
+/*@import "./css/appbutton/appbutton_in_titlebar_fx74.css"; !**! !* <-- label only *!*/
+ @import "./css/appbutton/appbutton_in_titlebar_icon_only_fx74.css"; /*
 
 /* for 'appbutton in titlebar icon only' - [only use one at a time] *****************************/
 /* @import "./css/appbutton/appbutton_in_titlebar_icon_only_dark.css"; /**/
@@ -362,7 +362,7 @@
 /* - Fx 72-73 Windows/Linux (use the Fx 65+ versions for macOS) *********************************/
 /* @import "./css/tabs/tabs_below_navigation_toolbar_fx72.css"; /**/
 /* - Fx 74-88 Windows/Linux *********************************************************************/
-/* [!] might require overriding url bars 'selection color' --> see corresponding area ***********/ 
+/* [!] might require overriding url bars 'selection color' --> see corresponding area ***********/
 /* @import "./css/tabs/tabs_below_navigation_toolbar_fx74.css"; /**/
 /* - Fx 74-88 - macOS ***************************************************************************/
 /* @import "./css/tabs/tabs_below_navigation_toolbar_fx74_macOS.css"; /**/
@@ -434,7 +434,7 @@
 /* @import "./css/tabs/tab_title_in_firefox_titlebar_centered.css"; /**/
 
 /* Tab scroll buttons position - [only use one at a time] ***************************************/
-/* @import "./css/tabs/tab_scrollbuttons_both_on_toolbars_start.css"; /**/  /* Fx 60-71 */ 
+/* @import "./css/tabs/tab_scrollbuttons_both_on_toolbars_start.css"; /**/  /* Fx 60-71 */
 /* @import "./css/tabs/tab_scrollbuttons_both_on_toolbars_start_fx72.css"; /**/  /* Fx 72+ */
 /* @import "./css/tabs/tab_scrollbuttons_both_on_toolbars_end.css"; /**/  /* Fx 60-71 */
 /* @import "./css/tabs/tab_scrollbuttons_both_on_toolbars_end_fx72.css"; /**/  /* Fx 72+ */
@@ -455,9 +455,9 @@
 /* @import "./css/tabs/tab_throbber_orange_ubuntu.css"; /**/
 
 /* tab close icon settings - [only use one at a time] *******************************************/
-@import "./css/tabs/tab_close_always_visible.css"; /**/
+/* @import "./css/tabs/tab_close_always_visible.css"; /**/
 /* @import "./css/tabs/tab_close_on_active_tab_only.css"; /**/
-/* @import "./css/tabs/tab_close_show_on_hover_only.css"; /**/
+ @import "./css/tabs/tab_close_show_on_hover_only.css"; /**/
 /* @import "./css/tabs/tab_close_hidden.css"; /**/
 /* @import "./css/tabs/tab_close_hidden_for_only_one_visible_tab.css"; /**/
 /* @import "./css/tabs/tab_close_at_tabs_start.css"; /**/
@@ -552,8 +552,8 @@
 /* @import "./css/generalui/findbar_on_bottom_close_at_findbars_start.css"; /**/
 
 /* FINDBAR FIREFOX 84+ **************************************************************************/
-/* @import "./css/generalui/findbar_on_top_fx84.css"; /**/
-/* @import "./css/generalui/findbar_on_top_close_at_findbars_start_fx84.css"; /**/
+ @import "./css/generalui/findbar_on_top_fx84.css";
+ @import "./css/generalui/findbar_on_top_close_at_findbars_start_fx84.css";
 
 
 /* page context menu items: 'back', 'forward', 'reload', 'stop', 'bookmarks' ********************/
@@ -742,7 +742,7 @@
 /* @import "./css/locationbar/selection_color_for_dark_bg.css"; /**/
 /* @import "./css/locationbar/selection_color_for_bright_bg.css"; /**/
 
- 
+
 /************************************************************************************************/
 /* MEGABAR - settings for 'megabar' & 'megabar popup' (active in Firefox 75+ by default) ********/
 /* about:config > browser.urlbar.update1 > true (pref present in Firefox 72-76) *****************/
@@ -758,7 +758,7 @@
 @import "./css/locationbar/ac_popup_megabar_title_and_url_50percent_width.css"; /**/
 /* @import "./css/locationbar/ac_popup_megabar_url_and_title_50percent_width.css"; /**/
 /* @import "./css/locationbar/ac_popup_megabar_title_and_url_two_lines.css"; /**/
-/* @import "./css/locationbar/ac_popup_megabar_url_only.css"; /**/ 
+/* @import "./css/locationbar/ac_popup_megabar_url_only.css"; /**/
 
 /* result menuitem settings/appearance **********************************************************/
 @import "./css/locationbar/ac_popup_megabar_compact_results.css"; /**/
